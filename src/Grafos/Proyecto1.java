@@ -3,7 +3,7 @@ package  Grafos;
 public class Proyecto1 {
   public static void main(String s[]){
 
-	  Grafo ErdosRenyi1 = new Grafo(30);
+	    Grafo ErdosRenyi1 = new Grafo(30);
 	    ErdosRenyi1.modeloErdosyRenyi(45); 
 	    ErdosRenyi1.escribirArchivo("ModeloErdosRenyi1.gv");
 
@@ -16,18 +16,16 @@ public class Proyecto1 {
 	    ErdosRenyi3.escribirArchivo("ModeloErdosRenyi3.gv");
 	    
 	   
-	   
-	    
 	    Grafo Gilbert1= new Grafo(30);
 	    Gilbert1.modeloGilbert(.50); 
 	    Gilbert1.escribirArchivo("ModeloGilbert1.gv");
 
 	    Grafo Gilbert2 = new Grafo(100);
-	    Gilbert2.modeloGilbert(.80); 
+	    Gilbert2.modeloGilbert(.15); 
 	    Gilbert2.escribirArchivo("ModeloGilbert2.gv");
 
 	    Grafo Gilbert3 = new Grafo(500);
-	    Gilbert3.modeloGilbert(.90); 
+	    Gilbert3.modeloGilbert(.10); 
 	    Gilbert3.escribirArchivo("ModeloGilbert13.gv");
 
 	    Grafo Geografico1 = new Grafo(30);
